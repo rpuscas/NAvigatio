@@ -15,6 +15,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.rpuscas.appmachine.yousneaker.fragments.FragmentoCategorias;
 import com.rpuscas.appmachine.yousneaker.fragments.FragmentoInicio;
 
 public class MainActivity extends AppCompatActivity {
@@ -77,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 // Fragmento para la sección Cuenta
                 break;
             case R.id.item_categorias:
-                // Fragmento para la sección Categorías
+                fragmentoGenerico = new FragmentoCategorias();
                 break;
             case R.id.item_configuracion:
                 // Iniciar actividad de configuración
